@@ -4,7 +4,7 @@ The aim of our bioinformatics pipeline is to provide a reliable tool that assign
 We suggest executing the scripts
 METAgg_mapping.pl
 METAgg_annotation.pl
-on the command line and then upload the XX folder, output of the first steps, on the AMAZON server, as the other steps of the pipeline have been optimized to be used on the AMAZON server as they involve an interactive visualisation and screening of taxonomic and functional profiles at community and taxon level. 
+on the command line and then upload the folder, output of the first steps, on the AMAZON server, as the other steps of the pipeline have been optimized to be used on the AMAZON server as they involve an interactive visualisation and screening of taxonomic and functional profiles at community and taxon level. 
 Here is a description of the script that are downloadable from this page:
 1) METAgg_mapping.pl
 uses the bwa algorithm to map the fastq file reads from all the samples to the contigs. In the script all the parameters are already set and optimized for this kind of data, but it is possible for the user to change some of those. The input files for this step are an assembly file and all the fastq  
